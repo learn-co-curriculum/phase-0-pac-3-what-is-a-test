@@ -33,7 +33,7 @@ describe("what-is-a-test", () => {
 
 
   describe("Height", () => {
-    it("is greater than 40", () => {
+    it("is less than 40", () => {
       expect(index.height).toBeLessThan(40)
     })
   })
@@ -62,7 +62,7 @@ If you look at the line that begins with `expect` you'll see this: `expect(index
 
 ```javascript
   describe("Height", () => {
-    it("is greater than 40", () => {
+    it("is less than 40", () => {
       expect(index.height).toBeLessThan(40)
     })
   })
@@ -82,3 +82,5 @@ The interesting line here is `expect(index.height).toBeLessThan(40)`. If you rea
 This one has two `expect` statements. If you read them out as english you'll discover that the tests expects `index.message` to include both `index.name` and `index.height`.
 
 OK Great. You now understand what the tests are saying. In the next lesson we are going to cover how to run them, and then have you actually solve the lab!
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-what-is-a-test'>What Is A Test</a> on Learn.co and start learning to code for free.</p>
