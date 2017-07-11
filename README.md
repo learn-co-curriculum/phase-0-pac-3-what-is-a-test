@@ -1,6 +1,6 @@
 # Professional Testing With Javascript
 
-As you can imagine it gets a bit unwieldy to have hundred of `if` statements throughout your code. Beyond them being just a bit large, they lack organization when categorizing features and they also can be somewhat difficult to read. All of these problems are amplified when there are so many!
+As you can imagine it gets a bit unwieldy to have hundreds of `if` statements throughout your code. Beyond them being just a bit large, they lack organization when categorizing features and they also can be somewhat difficult to read. All of these problems are amplified when there are so many!
 
 For many years, `if` statements is all we had though. So, we kept using them. In the past few years, programmers have created a bunch of new testing tools to make testing easier when dealing with many many many many tests. It doesn't matter too much, but the main one we are going to be using is called [Mocha](https://mochajs.org/). 
 
