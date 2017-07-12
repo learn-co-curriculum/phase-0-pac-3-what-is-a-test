@@ -87,6 +87,6 @@ The interesting line here is `expect(index.height).toBeLessThan(40)`. If you rea
 
 This one has two `expect` statements. If you read them out as English you'll discover that the tests expects `index.message` to include both `index.name` and `index.height`.
 
-OK Great. You now understand what the tests are saying. Let's run our tests and submit our code to learn. In the terminal first type `learn`. You should get a message saying `0 passing` and the local build light will turn green. Then to submit your code up, type `learn submit` in the terminal. You should be good to go forward now! In the next lesson we are going to cover how to run them, and then have you actually solve the lab! To To
+OK Great. You now understand what the tests are saying. Let's run our tests and submit our code to learn. In the terminal first type `learn`. You should get a message saying `0 passing` and the local build light will turn green. Then to submit your code up, type `learn submit` in the terminal. You should be good to go forward now! In the next lesson we are going to cover how to run them, and then have you actually solve the lab! 
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/js-what-is-a-test'>What Is A Test</a> on Learn.co and start learning to code for free.</p>
