@@ -1,5 +1,7 @@
 # Professional Testing With Javascript
 
+## Introduction
+
 As you can imagine it gets a bit unwieldy to have hundreds of `if` statements
 throughout your code. Beyond them being just a bit large, they lack organization
 when categorizing features and they also can be somewhat difficult to read. All
@@ -11,7 +13,14 @@ testing easier when dealing with many many, many, many tests. The main one we
 are going to be using is called [Mocha](https://mochajs.org/).
 
 Let's walk through the basics of testing. You'll discover it's not too different
-from what you've experienced in the last few labs. First things first, open up
+from what you've experienced in the last few lessons. Many lessons going forward
+will include tests. We refer to these lessons as _labs_. By having tests in our
+lesson materials, you can apply what you're learning and get immediate feedback
+on your code!
+
+## Getting Started
+
+First things first, open up
 `index.js` in your terminal. You are going to see mostly familiar things:
 
 ```javascript
@@ -131,9 +140,21 @@ discover that the tests expects `index.message` to include both `index.name` and
 
 OK Great. You now understand what the tests are saying. Let's run our tests and
 submit our code to learn. In the terminal first type `learn`. You should get a
-message saying `0 passing` and the local build light will turn green. Then to
-submit your code up, type `learn submit` in the terminal. You should be good to
-go forward now! In the next lesson we are going to cover how to run them, and
-then have you actually solve the lab!
+message saying `0 passing` and the local build light will turn green.
+
+For future labs, once all tests are passing, type `learn submit` in the terminal
+to submit your code and register completion. However, in this particular lesson,
+you will need to make a small edit to one of the files before running `learn
+submit` and continuing on. This is because Learn expects labs to include student
+written code.
+
+To register completion in this lab, make a small edit to any of the files
+present. If you added `console.log(message)` to `index.js` earlier, then you
+already completed this task. Run `learn submit` now and Learn will recongize
+that the contents of your lesson are slightly different than the original
+contents and will register completion of the lesson.
+
+You should be good to go forward now! In the next lesson we are going to cover
+how to run them, and then have you actually solve the lab!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/js-what-is-a-test'>What Is A Test</a> on Learn.co and start learning to code for free.</p>
