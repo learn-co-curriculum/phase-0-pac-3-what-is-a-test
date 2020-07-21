@@ -39,9 +39,10 @@ var message = `${name} is ${height} inches tall
 
 It's actually pretty cool what that line does. Explore what ends up in the
 `message` variable by typing `console.log(message)` on the last line and then
-run your `index.js` file. You should see `"Joe is 74 inches tall"`. Pretty cool
-right? If you create a string wrapping it in back-ticks (`` ` ``) you can then
-use your variables directly in the string to create a sentence like we just did.
+run `node index.js` in your terminal. You should see `"Joe is 74 inches tall"`. 
+Pretty cool right? If you create a string wrapping it in back-ticks (`` ` ``) you 
+can then use your variables directly in the string to create a sentence like we 
+just did.
 
 The key is when you use a variable you have to wrap the variable itself in the
 `${` and `}`. If you were to modify `message` to look like this:
