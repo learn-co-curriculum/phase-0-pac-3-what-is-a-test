@@ -157,5 +157,3 @@ contents and will register completion of the lesson.
 
 You should be good to go forward now! In the next lesson we are going to cover
 how to run them, and then have you actually solve the lab!
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/js-what-is-a-test'>What Is A Test</a> on Learn.co and start learning to code for free.</p>
