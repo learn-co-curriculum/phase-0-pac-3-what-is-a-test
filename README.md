@@ -34,7 +34,7 @@ module.exports = {name, height, message}
 This should look familiar except for that third line: 
 
 ```js
-var message = `${name} is ${height} inches tall 
+var message = `${name} is ${height} inches tall`
 ```
 
 It's actually pretty cool what that line does. Explore what ends up in the
@@ -48,7 +48,7 @@ The key is when you use a variable you have to wrap the variable itself in the
 `${` and `}`. If you were to modify `message` to look like this:
 
 ```js
-var message = `name is height inches tall
+var message = `name is height inches tall`
 ```
 
 ...and run your code again you'd get `"name is height inches tall"`. That's not
