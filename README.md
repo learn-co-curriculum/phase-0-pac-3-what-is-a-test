@@ -156,4 +156,7 @@ discover that the tests expect the value of `index.message` to include both
 OK Great. You now understand what the tests are saying. In the next lesson we
 are going to cover how to run them, and then you will solve the lab!
 
+To register completion of this lesson, submit the URL for your forked copy of
+the repo in Canvas.
+
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
