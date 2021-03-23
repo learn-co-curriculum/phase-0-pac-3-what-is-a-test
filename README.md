@@ -18,8 +18,7 @@ What this means is that the results of running the tests will be an important
 tool in figuring out how to get those tests passing. Code testing can feel like
 an abstract concept at first, but it's worth starting to learn how they work.
 When you're having difficulty passing a test, being able to read and understand
-the test output &mdash; and the tests themselves &mdash; can be an invaluable
-skill.
+the test output — and the tests themselves — can be an invaluable skill.
 
 ## Getting Started
 
@@ -40,8 +39,8 @@ module.exports = {name, height, message};
 ```
 
 This should all look familiar except for that last line. You don't need to worry
-about it for now &mdash; just know that line of code makes the variables
-available to the test file.
+about it for now — just know that line of code makes the variables available to
+the test file.
 
 Take a look at the `message` variable:
 
@@ -52,9 +51,9 @@ const message = `${name} is ${height} inches tall`;
 We can use `console.log` to take a look at the value of the `message` variable.
 To do that, first type `console.log(message);` on the last line of `index.js`
 and save the file. Next, navigate to the terminal, type `node index.js` in the
-command line and hit enter. The `node` command _executes_ the code in whatever
-file you specify (in this case, `index.js`). You should see `"Joe is 74 inches
-tall"` logged in the terminal.
+command line and hit enter (be sure you're still in the lab's directory). The
+`node` command _executes_ the code in whatever file you specify (in this case,
+`index.js`). You should see `"Joe is 74 inches tall"` logged in the terminal.
 
 > **Top Tip**: `console.log` is one of the debugging tools you can use as you're writing your code. Logging a variable and executing the code will allow you to verify that the value of the variable is what you're expecting.
 
