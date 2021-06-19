@@ -50,12 +50,21 @@ const message = `${name} is ${height} inches tall`;
 
 We can use `console.log` to take a look at the value of the `message` variable.
 To do that, first type `console.log(message);` on the last line of `index.js`
-and save the file. Next, navigate to the terminal, type `node index.js` in the
-command line and hit enter (be sure you're still in the lab's directory). The
-`node` command _executes_ the code in whatever file you specify (in this case,
-`index.js`). You should see `"Joe is 74 inches tall"` logged in the terminal.
+and save the file. Next, navigate to the terminal, and type the following
+command in the command line and hit enter (be sure you're still in the lab's
+directory):
 
-> **Top Tip**: `console.log` is one of the debugging tools you can use as you're writing your code. Logging a variable and executing the code will allow you to verify that the value of the variable is what you're expecting.
+```sh
+node index.js
+``` 
+
+The `node` command _executes_ the code in whatever file you specify (in this
+case, `index.js`). You should see `"Joe is 74 inches tall"` logged in the
+terminal.
+
+> **Top Tip**: `console.log` is one of the debugging tools you can use as you're
+> writing your code. Logging a variable and executing the code will allow you to
+> verify that the value of the variable is what you're expecting.
 
 In the line of code above, we are using _string interpolation_ to inject the
 values of the `name` and `height` variables into the message. Recall that, for
