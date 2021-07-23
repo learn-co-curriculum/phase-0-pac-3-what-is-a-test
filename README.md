@@ -164,7 +164,16 @@ discover that the tests expect the value of `index.message` to include both
 OK Great. You now understand what the tests are saying. In the next lesson we
 are going to cover how to run them, and then you will solve the lab!
 
+## Submitting the Assignment
+
 To register completion of this lesson, submit the URL for your forked copy of
-the repo in Canvas.
+the repo in Canvas. Even though you didn't need to write any code for this lesson,
+you'll need to submit a link in order for this lesson to be marked as complete in 
+Canvas.
+
+1. Go to your repository in GitHub and copy the URL. Note, this should be copied 
+   from the browser's address bar, and should start with https://github.com/
+3. Go to the assignment in Canvas and click Submit Assignment (or Start Assignment)
+4. Paste in your GitHub URL as your submission
 
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
