@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-* Learn about testing in JavaScript
+- Learn about testing in JavaScript
 
 ## Introduction
 
@@ -35,7 +35,7 @@ const name = "Joe";
 const height = 74;
 const message = `${name} is ${height} inches tall`;
 
-module.exports = {name, height, message};
+module.exports = { name, height, message };
 ```
 
 This should all look familiar except for that last line. You don't need to worry
@@ -56,7 +56,7 @@ directory):
 
 ```sh
 node index.js
-``` 
+```
 
 The `node` command _executes_ the code in whatever file you specify (in this
 case, `index.js`). You should see `"Joe is 74 inches tall"` logged in the
@@ -81,27 +81,27 @@ We have our code, now let's take a look at the tests. They are located in the
 familiar with the tests, and then run them in the next lesson.
 
 ```javascript
-const index = require("../index.js");
+const { name, height, message } = require("../index.js");
 
 /*
 describe('what-is-a-test', () => {
   describe('Name', () => {
     it('returns "Susan"', () => {
-      expect(index.name).toEqual('Susan')
+      expect(name).toEqual('Susan')
     })
   })
 
 
   describe('Height', () => {
     it('is less than 40', () => {
-      expect(index.height).toBeLessThan(40)
+      expect(height).toBeLessThan(40)
     })
   })
 
   describe('Message', () => {
     it('gives the name and height', () => {
-      expect(index.message).toInclude(index.name)
-      expect(index.message).toInclude(index.height)
+      expect(message).toInclude(name)
+      expect(message).toInclude(height)
     })
   })
 })
@@ -109,9 +109,9 @@ describe('what-is-a-test', () => {
 ```
 
 In the first line, we're enabling the tests to access the variables in
-`index.js`. You don't need to worry about exactly how this works at this point;
-it's enough to understand that we're creating a variable `index` that will
-contain the values of the three variables.
+`index.js`. You don't need to worry about exactly how this works at this point —
+just know that the `module.exports` and `require` keywords allow us to access
+variables written in the `index.js` file from within the test file.
 
 The next thing to notice is that the test code itself is commented out using the
 `/*` and `*/` block commenting syntax. This is because, as mentioned above, we
@@ -125,36 +125,36 @@ with `describe`).
 The first grouping is testing our `name` variable:
 
 ```javascript
-  describe('Name', () => {
-    it('returns "Susan"', () => {
-      expect(index.name).toEqual('Susan')
-    })
-  })
+describe("Name", () => {
+  it('returns "Susan"', () => {
+    expect(name).toEqual("Susan");
+  });
+});
 ```
 
 Take a look at the line that begins with `expect`. If we read it out loud, we
-get "Expect `index.name` to equal Susan". That's exactly what it's saying! If we
+get "Expect `name` to equal Susan". That's exactly what it's saying! If we
 continue down to the Height section you'll see this code:
 
 ```javascript
-  describe('Height', () => {
-    it('is less than 40', () => {
-      expect(index.height).toBeLessThan(40)
-    })
-  })
+describe("Height", () => {
+  it("is less than 40", () => {
+    expect(height).toBeLessThan(40);
+  });
+});
 ```
 
-Again, reading the line starting with `expect` out loud, we get "Expect
-`index.height` to be less than 40." Again, this is just what the test is
-checking. Let's look at the final one:
+Again, reading the line starting with `expect` out loud, we get "Expect `height`
+to be less than 40." Again, this is just what the test is checking. Let's look
+at the final one:
 
 ```javascript
-  describe('Message', () => {
-    it('gives the name and height', () => {
-      expect(index.message).toInclude(index.name)
-      expect(index.message).toInclude(index.height)
-    })
-  })
+describe("Message", () => {
+  it("gives the name and height", () => {
+    expect(message).toInclude(name);
+    expect(message).toInclude(height);
+  });
+});
 ```
 
 This one has two `expect` statements. If you read them out as English you'll
@@ -167,13 +167,14 @@ are going to cover how to run them, and then you will solve the lab!
 ## Submitting the Assignment
 
 To register completion of this lesson, submit the URL for your forked copy of
-the repo in Canvas. Even though you didn't need to write any code for this lesson,
-you'll need to submit a link in order for this lesson to be marked as complete in 
-Canvas.
+the repo in Canvas. Even though you didn't need to write any code for this
+lesson, you'll need to submit a link in order for this lesson to be marked as
+complete in Canvas.
 
-1. Go to your repository in GitHub and copy the URL. Note, this should be copied 
+1. Go to your repository in GitHub and copy the URL. Note, this should be copied
    from the browser's address bar, and should start with https://github.com/
-3. Go to the assignment in Canvas and click Submit Assignment (or Start Assignment)
-4. Paste in your GitHub URL as your submission
+2. Go to the assignment in Canvas and click Submit Assignment (or Start
+   Assignment)
+3. Paste in your GitHub URL as your submission
 
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
