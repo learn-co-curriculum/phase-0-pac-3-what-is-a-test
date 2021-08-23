@@ -54,8 +54,8 @@ and save the file. Next, navigate to the terminal, and type the following
 command in the command line and hit enter (be sure you're still in the lab's
 directory):
 
-```sh
-node index.js
+```console
+$ node index.js
 ```
 
 The `node` command _executes_ the code in whatever file you specify (in this
