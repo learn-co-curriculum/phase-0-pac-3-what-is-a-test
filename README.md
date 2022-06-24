@@ -20,7 +20,6 @@ an abstract concept at first, but it's worth starting to learn how they work.
 When you're having difficulty passing a test, being able to read and understand
 the test output — and the tests themselves — can be an invaluable skill.
 
-
 ## Getting Started
 
 The lesson is set up a code-along, so you'll first need to fork and
@@ -44,7 +43,7 @@ code for the course) and clone the repo to your local machine with `git clone`
 followed by the git URL you copied.
 
 ```console
-$ git clone git@github.com:<your-github-username>/phase-0-html-experiencing-html-lab.git
+$ git clone git@github.com:learn-co-curriculum/phase-0-pac-3-what-is-a-test.git
 ```
 
 **4.** The previous command will create a folder in the location you're
@@ -53,7 +52,7 @@ repository that you just cloned down in the terminal, then run `code .` to open
 the files in Visual Studio Code.
 
 ```console
-$ cd phase-0-pac-3-what-is-a-test-lab.git
+$ cd phase-0-pac-3-what-is-a-test
 $ code .
 ```
 
