@@ -22,7 +22,7 @@ the test output — and the tests themselves — can be an invaluable skill.
 
 ## Getting Started
 
-The lesson is set up a code-along, so you'll first need to fork and
+The lesson is set up as a code-along, so you'll first need to fork and
 clone it to your local environment.
 
 **Quick Review:**
