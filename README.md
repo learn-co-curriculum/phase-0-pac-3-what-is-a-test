@@ -144,8 +144,9 @@ variables written in the `index.js` file from within the test file.
 
 The next thing to notice is that the test code itself is commented out using the
 `/*` and `*/` block commenting syntax. This is because, as mentioned above, we
-don't actually want to run the tests yet. In the next lesson, we will remove the
-`/*` and `*/` so we can run the tests.
+don't actually want to run the tests yet. We will run the tests in the lab that
+follows this lesson; in the version of the files provided for the lab, you'll see
+that the `/*` and `*/` have been removed.
 
 Next, note that the test code consists of three individual tests (each starting
 with `describe`) nested inside a block for the tests as a whole (also starting
