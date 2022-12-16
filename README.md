@@ -22,14 +22,16 @@ the test output — and the tests themselves — can be an invaluable skill.
 
 ## Getting Started
 
-The lesson is set up as a code-along, so you'll first need to fork and
-clone it to your local environment.
+The lesson is set up as a code-along, so you'll first need to fork and clone it
+to your local environment.
 
 **Quick Review:**
 
-**1.** click the **Fork** icon in the upper right of this page. This will bring
-you to GitHub. If you are prompted to choose where to fork, choose your personal
-GitHub account.
+**1.** click the **Octocat** icon in the upper right of this page. This will
+bring you to GitHub. Click the fork button. If you are prompted to choose where
+to fork, choose your personal GitHub account.
+
+<!-- ![fork-repo]() -->
 
 **2.** Once your fork is created, click the **Code** button in GitHub, make sure
 **SSH** is selected, and copy the provided git URL info.
@@ -145,8 +147,8 @@ variables written in the `index.js` file from within the test file.
 The next thing to notice is that the test code itself is commented out using the
 `/*` and `*/` block commenting syntax. This is because, as mentioned above, we
 don't actually want to run the tests yet. We will run the tests in the lab that
-follows this lesson; in the version of the files provided for the lab, you'll see
-that the `/*` and `*/` have been removed.
+follows this lesson; in the version of the files provided for the lab, you'll
+see that the `/*` and `*/` have been removed.
 
 Next, note that the test code consists of three individual tests (each starting
 with `describe`) nested inside a block for the tests as a whole (also starting
