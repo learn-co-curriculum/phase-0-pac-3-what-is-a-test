@@ -27,7 +27,7 @@ to your local environment.
 
 **Quick Review:**
 
-**1.** click the **Octocat** icon in the upper right of this page. This will
+**1.** Click the **Octocat** icon in the upper right of this page. This will
 bring you to GitHub. Click the **Fork** button. If necessary, select your
 personal GitHub account as the Owner of the new fork. Click the **Create fork**
 button.
