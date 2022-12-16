@@ -28,15 +28,16 @@ to your local environment.
 **Quick Review:**
 
 **1.** click the **Octocat** icon in the upper right of this page. This will
-bring you to GitHub. Click the fork button. If you are prompted to choose where
-to fork, choose your personal GitHub account.
+bring you to GitHub. Click the **Fork** button. If necessary, select your
+personal GitHub account as the Owner of the new fork. Click the **Create fork**
+button.
 
-<!-- ![fork-repo]() -->
+![Gif demonstrating how to fork a repo](https://imgur.com/yIWiknq.gif)
 
 **2.** Once your fork is created, click the **Code** button in GitHub, make sure
 **SSH** is selected, and copy the provided git URL info.
 
-![clone-repo](https://curriculum-content.s3.amazonaws.com/phase-0/completing-assignments/clone-repo.gif)
+![Gif demonstrating how to clone a repo](https://curriculum-content.s3.amazonaws.com/phase-0/completing-assignments/clone-repo.gif)
 
 Then, in your terminal:
 
