@@ -213,7 +213,7 @@ Click on that entry. You should now see a list of your repositories. Find the
 repo for this lesson and click Connect. When you get the message that your repo
 has been connected, click on the embedded link, then the "AutoTest" tab. After a
 few moments, you should see the green checkmark in the "Pass" column, indicating
-that you've successfully completed the lab.
+that you've successfully submitted the lesson.
 
 ![CodeGrade window showing tests have all been passed](https://curriculum-content.s3.amazonaws.com/phase-0/completing-assignments-codegrade/codegrade-tests-passing.png)
 
