@@ -22,8 +22,8 @@ the test output — and the tests themselves — can be an invaluable skill.
 
 ## Getting Started
 
-The lesson is set up as a code-along, so you'll first need to fork and clone it
-to your local environment.
+The lesson is set up as a code-along, so you'll first need to **fork and clone**
+it to your local environment.
 
 **Quick Review:**
 
@@ -109,7 +109,7 @@ grab the _value_ inside the variable, not just that variable name.
 ### The Tests
 
 We have our code, now let's take a look at the tests. They are located in the
-`test` folder inside a file named `index-test.js`. In this lesson we'll get
+`test` folder inside a file named `indexTest.js`. In this lesson we'll get
 familiar with the tests, and then run them in the next lesson.
 
 ```javascript
@@ -197,17 +197,24 @@ discover that the tests expect the value of `index.message` to include both
 OK Great. You now understand what the tests are saying. In the next lesson we
 are going to cover how to run them, and then you will solve the lab!
 
-## Submitting the Assignment
+## Submitting the Code-Along
 
-To register completion of this lesson, submit the URL for your forked copy of
-the repo in Canvas. Even though you didn't need to write any code for this
-lesson, you'll need to submit a link in order for this lesson to be marked as
-complete in Canvas.
+Even though you didn't need to write any code for this lesson, you'll still need
+to submit it using CodeGrade in order for it to be marked as complete in Canvas.
 
-1. Go to your repository in GitHub and copy the URL. Note, this should be copied
-   from the browser's address bar, and should start with https://github.com/
-2. Go to the assignment in Canvas and click Submit Assignment (or Start
-   Assignment)
-3. Paste in your GitHub URL as your submission
+Scroll to the bottom of this lesson page in Canvas and click the button labeled
+"Load Testing With JavaScript in a new window". In the CodeGrade window that
+opens, click "Create Submission". You should then see your GitHub account
+listed:
+
+![CodeGrade window with GitHub account shown](https://curriculum-content.s3.amazonaws.com/phase-0/completing-assignments-codegrade/codegrade-github-account-list.png)
+
+Click on that entry. You should now see a list of your repositories. Find the
+repo for this lesson and click Connect. When you get the message that your repo
+has been connected, click on the embedded link, then the "AutoTest" tab. After a
+few moments, you should see the green checkmark in the "Pass" column, indicating
+that you've successfully completed the lab.
+
+![CodeGrade window showing tests have all been passed](https://curriculum-content.s3.amazonaws.com/phase-0/completing-assignments-codegrade/codegrade-tests-passing.png)
 
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
