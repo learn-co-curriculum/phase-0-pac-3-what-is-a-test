@@ -49,6 +49,10 @@ storing your code for the course) and clone the repo to your local machine with
 $ git clone git@github.com:<your-github-name>/phase-0-pac-3-what-is-a-test.git
 ```
 
+> **REMEMBER**: Don't type the `$`. That's the universal symbol for a command
+> prompt. It's how technical documentation says "Here's a thing for the shell to
+> process."
+
 **4.** The previous command will create a folder in the `se-prep` folder
 containing your fork of this lab's repository. `cd` into the repository that you
 just cloned down in the terminal, then run `code .` to open the files in Visual
