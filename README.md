@@ -16,7 +16,7 @@ considered the most reliable methodology for delivering quality code.
 
 What this means is that the results of running the tests will be an important
 tool in figuring out how to get those tests passing. Code testing can feel like
-an abstract concept at first, but it's worth starting to learn how they work.
+an abstract concept at first, but it's worth starting to learn how it works.
 When you're having difficulty passing a test, being able to read and understand
 the test output — and the tests themselves — can be an invaluable skill.
 
@@ -41,18 +41,18 @@ button.
 
 Then, in your terminal:
 
-**3.** Make sure you're in `Development/code` (or wherever you're storing your
-code for the course) and clone the repo to your local machine with `git clone`
-followed by the git URL you copied.
+**3.** Make sure you're in `Development/code/se-prep` (or wherever you're
+storing your code for the course) and clone the repo to your local machine with
+`git clone` followed by the git URL you copied.
 
 ```console
-$ git clone git@github.com:learn-co-curriculum/phase-0-pac-3-what-is-a-test.git
+$ git clone git@github.com:<your-github-name>/phase-0-pac-3-what-is-a-test.git
 ```
 
-**4.** The previous command will create a folder in the location you're
-currently in containing your fork of this lab's repository. `cd` into the
-repository that you just cloned down in the terminal, then run `code .` to open
-the files in Visual Studio Code.
+**4.** The previous command will create a folder in the `se-prep` folder
+containing your fork of this lab's repository. `cd` into the repository that you
+just cloned down in the terminal, then run `code .` to open the files in Visual
+Studio Code.
 
 ```console
 $ cd phase-0-pac-3-what-is-a-test
@@ -148,7 +148,7 @@ variables written in the `index.js` file from within the test file.
 The next thing to notice is that the test code itself is commented out using the
 `/*` and `*/` block commenting syntax. This is because, as mentioned above, we
 don't actually want to run the tests yet. We will run the tests in the lab that
-follows this lesson; in the version of the files provided for the lab, you'll
+follows this lesson; when you fork and clone that version of the files, you'll
 see that the `/*` and `*/` have been removed.
 
 Next, note that the test code consists of three individual tests (each starting
@@ -194,7 +194,7 @@ This one has two `expect` statements. If you read them out as English you'll
 discover that the tests expect the value of `index.message` to include both
 `index.name` and `index.height`.
 
-OK Great. You now understand what the tests are saying. In the next lesson we
+OK great. You now understand what the tests are saying. In the next lesson we
 are going to cover how to run them, and then you will solve the lab!
 
 ## Submitting the Code-Along
