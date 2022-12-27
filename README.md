@@ -46,7 +46,7 @@ storing your code for the course) and clone the repo to your local machine with
 `git clone` followed by the git URL you copied.
 
 ```console
-$ git clone git@github.com:your-github-name/phase-0-pac-3-what-is-a-test.git
+$ git clone git@github.com:your-github-username/phase-0-pac-3-what-is-a-test.git
 ```
 
 > **REMEMBER**: Don't type the `$`. That's the universal symbol for a command
