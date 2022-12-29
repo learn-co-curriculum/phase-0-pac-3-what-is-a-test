@@ -207,17 +207,14 @@ Even though you didn't need to write any code for this lesson, you'll still need
 to submit it using CodeGrade in order for it to be marked as complete in Canvas.
 
 Scroll to the bottom of this lesson page in Canvas and click the button labeled
-"Load Testing With JavaScript in a new window". In the CodeGrade window that
-opens, click "Create Submission". You should then see your GitHub account
-listed:
+"Load Testing With JavaScript in a new window".
 
-![CodeGrade window with GitHub account shown](https://curriculum-content.s3.amazonaws.com/phase-0/completing-assignments-codegrade/codegrade-github-account-list.png)
-
-Click on that entry. You should now see a list of your repositories. Find the
-repo for this lesson and click Connect. When you get the message that your repo
-has been connected, click on the embedded link, then the "AutoTest" tab. After a
-few moments, you should see the green checkmark in the "Pass" column, indicating
-that you've successfully submitted the lesson.
+In the CodeGrade window that opens, click "Create Submission". You should now
+see a list of your repositories. Find the repo for this lesson and click
+Connect. When you get the message that your repo has been connected, click on
+the embedded link, then the "AutoTest" tab. After a few moments, you should see
+the green checkmark in the "Pass" column, indicating that you've successfully
+submitted the lesson.
 
 ![CodeGrade window showing tests have all been passed](https://curriculum-content.s3.amazonaws.com/phase-0/completing-assignments-codegrade/codegrade-tests-passing.png)
 
